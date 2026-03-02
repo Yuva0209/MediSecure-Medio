@@ -1,6 +1,6 @@
 # Welcome to Your Miaoda Project
 Miaoda Application Link URL
-    URL:https://medo.dev/projects/app-9yufcmrw4oap
+    https://app-9yufcmrw4oap.appmedo.com
 
 # MediSecure - Role-Based Authentication & Access Control System
 
