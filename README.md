@@ -286,7 +286,34 @@ The application will be available at `http://localhost:5173`
 - created_at (timestamp)
 ```
 
-## 🎨 Design System
+## 🎨 Design System Architecture
+
+                    Users
+        (Admin, Doctor, Receptionist, Patient)
+                    │
+                    ▼
+                Frontend Layer
+            (React + TypeScript + UI)
+                    │
+                    ▼
+                API Layer
+            (Supabase REST API)
+                    │
+                    ▼
+        Authentication & Authorization
+        (JWT + Role-Based Access Control)
+                    │
+                    ▼
+                Database Layer
+            (PostgreSQL via Supabase)
+                    │
+                            ▼
+                Tables
+                Profiles
+                Appointments
+                Patient Records
+                Prescriptions
+                Audit Logs
 
 The application uses a professional healthcare-themed design with:
 - **Primary Color**: Medical blue (#0891b2)
